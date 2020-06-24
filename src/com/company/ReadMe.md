@@ -1,0 +1,56 @@
+/*
+ * Classname Main
+ *
+ * @version 20/06/2020
+ *
+ * @author Moskaliuk Ivanna KNUTE
+ *
+ * Module 3 task 1
+ * JavaCollectionsFramework. List.
+1.  Create ArrayList and LinkedList containing  100 000 Integer elements. Compare time intervals.
+2. Insert  new 1000 elements  on the  beginning, on  the middle  and on the end of ones. Compare time intervals.
+3. Update 1000 elements  from the  beginning, from  the middle  and from the end of ones. Compare time intervals.
+4. Delete 1000 elements  from the  beginning, from  the middle  and from the end of ones. Compare time intervals.
+ */
+ 
+-------------- Lists Initializations --------------
+Initialization ArrayList needs: 157 Milliseconds
+Initialization LinkedList needs: 62 Milliseconds
+
+----- Inserting new 1000 elements on the begin -----
+Insert 1000 new elements on the beginning ArrayList needs: 69 Milliseconds
+Insert 1000 new elements on the beginning LinkedList needs: 15 Milliseconds
+
+----- Inserting new 1000 elements on the middle -----
+Insert 1000 new elements on the middle ArrayList needs: 17 Milliseconds
+Insert 1000 new elements on the middle LinkedList needs: 207 Milliseconds
+
+------- Inserting new 1000 elements on the end -------
+Insert 1000 new elements on the end ArrayList needs: 1 Milliseconds
+Insert 1000 new elements on the end LinkedList needs: 0 Milliseconds
+
+------- Updating new 1000 elements on the begin -------
+Update 1000 new elements on the begin ArrayList needs: 1 Milliseconds
+Update 1000 new elements on the begin LinkedList needs: 2 Milliseconds
+
+------- Updating new 1000 elements on the middle -------
+Update 1000 new elements on the middle ArrayList needs: 1 Milliseconds
+Update 1000 new elements on the middle LinkedList needs: 236 Milliseconds
+
+------- Updating new 1000 elements on the end -------
+Update 1000 new elements on the end ArrayList needs: 2 Milliseconds
+Update 1000 new elements on the end LinkedList needs: 1 Milliseconds
+
+------- Deleting new 1000 elements on the begin -------
+Delete 1000 new elements on the begin ArrayList needs: 85 Milliseconds
+Delete 1000 new elements on the begin LinkedList needs: 3 Milliseconds
+
+------- Deleting new 1000 elements on the middle -------
+Delete 1000 new elements on the middle ArrayList needs: 15 Milliseconds
+Delete 1000 new elements on the middle LinkedList needs: 188 Milliseconds
+
+------- Deleting new 1000 elements on the end -------
+Delete 1000 new elements on the end ArrayList needs: 0 Milliseconds
+Delete 1000 new elements on the end LinkedList needs: 2 Milliseconds
+
+Process finished with exit code 0
